@@ -46,7 +46,7 @@ margin-right:auto;
 	}
 
 /* Font Stuff */
-/*@font-face {
+@font-face {
     font-family: "TW Cen MT";
     src: url(twcenmt.ttf) format("truetype");
 }
@@ -56,9 +56,9 @@ p.twcenmt {
 }
 p.twcenmtred { 
     font-family: "TW Cen MT";
-	color: #D00000; */
+	color: #D00000; 
 
-@font-face {
+/*@font-face {
     font-family: "Tahoma";
     src: url(tahoma.ttf) format("truetype");
 }
@@ -68,7 +68,7 @@ p.tahoma {
 }
 p.tahomared { 
     font-family: "Tahoma";
-	color: #D00000;
+	color: #D00000; */
 }
 }
 p {
