@@ -79,7 +79,7 @@ p {
     margin-right: 0;
 }
 body {
-    background-image: url("assets/images/bgw.png");
+/*    background-image: url("assets/images/bgw.png"); */
     background-color: #3A6EA5;
     background-repeat: no-repeat;
     background-attachment: fixed;
