@@ -48,7 +48,7 @@ margin-right:auto;
 /* Font Stuff */
 @font-face {
     font-family: "TW Cen MT";
-    src: url(twcenmt.ttf) format("truetype");
+    src: url(https://raw.githubusercontent.com/xVenti/xVenti.github.io/master/twcenmt.ttf) format("truetype");
 }
 p.twcenmt { 
     font-family: "TW Cen MT";
