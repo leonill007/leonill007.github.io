@@ -1,0 +1,97 @@
+---
+---
+
+@import "";
+.fullscreen {
+width:100%
+text-align:center
+
+}
+/* Page Width */
+.stage {
+width:980px;
+margin-left:auto;
+margin-right:auto;
+
+}
+.top {
+    width: 100%;
+    height: 40px;
+    border:solid 1px white
+}
+.left {
+    width: 30%;
+    height: 100%;
+    float:left;
+}
+.main {
+    float: left;
+    height: 100%;
+    width: 70%
+    border:solid 1px black;
+ }
+ 
+/* LINK COLORING: */
+	/* unvisited link */
+	a:link {
+		color: #000000;
+	}
+	/* visited link */
+	a:visited {
+		color: #292929;
+	}
+	/* mouse over link */
+	a:hover {
+		color: #141414;
+	}
+	/* selected link */
+	a:active {
+		color: #0a246a;
+	}
+
+/* Font Stuff */
+@font-face {
+    font-family: "TW Cen MT";
+    src: url(twcenmt.ttf) format("truetype");
+}
+p.twcenmt { 
+    font-family: "TW Cen MT";
+	color: #000000;
+}
+p.twcenmtred { 
+    font-family: "TW Cen MT";
+	color: #D00000; 
+
+/*@font-face {
+    font-family: "Tahoma";
+    src: url(tahoma.ttf) format("truetype");
+}
+p.tahoma { 
+    font-family: "Tahoma";
+	color: #000000;
+}
+p.tahomared { 
+    font-family: "Tahoma";
+	color: #D00000; */
+}
+}
+p {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+}
+body {
+/*    background-image: url("https://raw.githubusercontent.com/xVenti/xVenti.github.io/master/assets/images/back.png"); */
+    background-color: #3A6EA5;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* hr Tag Color */
+hr{ 
+    height: 0px;
+	background-color: #383838;
+	border: none;
+}
