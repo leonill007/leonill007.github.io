@@ -30,6 +30,13 @@ margin-right:auto;
     width: 70%
     border:solid 1px black;
  }
+
+/* General Style */ 
+.centerImage
+{
+ text-align:center;
+ display:block;
+}
  
 /* LINK COLORING: */
 	/* unvisited link */
