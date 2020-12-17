@@ -5,7 +5,12 @@
 .fullscreen {
 width:100%
 text-align:center
+}
 
+.main-content {
+  h1 {
+   color: #ff0000;
+ }
 }
 /* Page Width */
 .stage {
