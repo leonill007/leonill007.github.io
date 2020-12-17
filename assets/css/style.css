@@ -67,24 +67,27 @@ margin-right:auto;
 }
 
 
-}
+
 p.twcenmt { 
     font-family: 'Tw Cen MT';
 	color: #000000;
 }
-p.twcenmtred { 
     font-family: 'Tw Cen MT';
 	color: #D00000; 
+
+
+    font-family: 'Tahoma';
+    src: url(tahoma.ttf) format("truetype");
 }
-p.tahoma { 
+p.tahoma {
     font-family: 'Tahoma';
 	color: #000000;
 }
-p.tahomared { 
+
     font-family: 'Tahoma';
 	color: #D00000; 
 }
-}
+
 p {
     display: block;
     margin-top: 0em;
