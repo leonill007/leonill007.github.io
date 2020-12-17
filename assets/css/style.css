@@ -7,11 +7,6 @@ width:100%
 text-align:center
 }
 
-.main-content {
-  h1 {
-   color: #ff0000;
- }
-}
 /* Page Width */
 .stage {
 width:980px;
@@ -63,33 +58,13 @@ margin-right:auto;
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Tahoma';
-    src: url('tahoma.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 
 
 p.twcenmt { 
     font-family: 'Tw Cen MT';
 	color: #000000;
-}
+
     font-family: 'Tw Cen MT';
-	color: #D00000; 
-
-
-    font-family: 'Tahoma';
-    src: url(tahoma.ttf) format("truetype");
-}
-p.tahoma {
-    font-family: 'Tahoma';
-	color: #000000;
-}
-
-    font-family: 'Tahoma';
 	color: #D00000; 
 }
 
