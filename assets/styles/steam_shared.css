@@ -26,6 +26,7 @@ nav li a:hover {
   color: #E3E41F;
   background: #5a6a50;
 }
+}
 nav li:hover ul.dropdown {
   display: block;
 }
@@ -438,7 +439,7 @@ hr {
 }
 img {
   object-fit: contain;
-/**  margin: 2px; **/
+  margin: 2px; 
 }
 main,
 .window-column {
