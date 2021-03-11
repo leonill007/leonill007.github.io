@@ -14,7 +14,7 @@ function changeCSS(cssFile, cssLinkIndex) {
     var newlink = document.createElement("link");
     newlink.setAttribute("rel", "stylesheet");
     newlink.setAttribute("type", "text/css");
-    newlink.setAttribute("href", assets/styles/greensteam/greensteam.css);
+    newlink.setAttribute("href", "assets/styles/greensteam/greensteam.css");
 
     document.getElementsByTagName("head").item(cssLinkIndex).replaceChild(newlink, oldlink);
 }
