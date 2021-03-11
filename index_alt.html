@@ -6,6 +6,19 @@
 <meta charset=utf-8>
 <title>Venti - Start</title>
 <div class='stage'>
+<script>
+function changeCSS(cssFile, cssLinkIndex) {
+
+    var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+
+    var newlink = document.createElement("link");
+    newlink.setAttribute("rel", "stylesheet");
+    newlink.setAttribute("type", "text/css");
+    newlink.setAttribute("href", assets/styles/greensteam/greensteam.css);
+
+    document.getElementsByTagName("head").item(cssLinkIndex).replaceChild(newlink, oldlink);
+}
+</script>
 </head>
 <center><a href="index.html"><img src="assets\images\logo\logow.png" title="Venti" alt="Venti" height="164" width="457"></a></center>
 	<main>
@@ -25,10 +38,8 @@
 			<center><img src="assets\images\labymod_wrapped_2020.png" height="640" width="640"></center>
 			</div>
 		<center><p>&copyVenti 2021</p></center>
-	        <select id="theme-selector">
-                <option value="default">Default</option>
-                <option value="dark">Dark mode</option>
-            </select>
+            <a href="#" onclick="changeCSS('positive.css', 0);">STYLE 1</a> 
+            <a href="#" onclick="changeCSS('negative.css', 0);">STYLE 2</a>
 		</div>
     </main>
 </html>
