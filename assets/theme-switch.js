@@ -1,28 +1,11 @@
-window.onload = function() {
-  // Set to default theme on load
-  let currentTheme = "default";
+function changeCSS(cssFile, cssLinkIndex) {
 
-  const themeSelector = document.getElementById("theme-selector");
+    var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
 
-  // Add change event listener
-  themeSelector.addEventListener("change", function(e) {
-    // Get the user's choice from the event object `e`.
-    const newTheme = e.currentTarget.value;
+    var newlink = document.createElement("link");
+    newlink.setAttribute("rel", "stylesheet");
+    newlink.setAttribute("type", "text/css");
+    newlink.setAttribute("href", assets/styles/greensteam/greensteam.css);
 
-    // Set the theme
-    setTheme(currentTheme, newTheme);
-  });
-
-  function setTheme(oldTheme, newTheme) {
-    const body = document.getElementsByTagName("body")[0];
-
-    // Remove old theme scope from body's class list
-    body.classList.remove(oldTheme);
-
-    // Add new theme scope to body's class list
-    body.classList.add(newTheme);
-
-    // Set it as current theme
-    currentTheme = newTheme;
-  }
-};
+    document.getElementsByTagName("head").item(cssLinkIndex).replaceChild(newlink, oldlink);
+}
