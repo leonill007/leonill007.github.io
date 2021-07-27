@@ -2,6 +2,6 @@
 
 here you can look at the files and all of that stuff. yeah!
 
-Interface design from [vgui.css](https://github.com/AlpyneDreams/vgui.css) 
+User Experience: [vgui.css by AlpyneDreams](https://github.com/AlpyneDreams/vgui.css), using my own modification: [vgui.css by Venti](https://github.com/xVenti/vgui.css)
 
 [xVenti.github.io](https://xventi.github.io/)
