@@ -22,12 +22,17 @@
 			<div class="box inset">
                 <h1>Clippy</h1>
                 <h2>This is a test.</h2>
-				// Show text balloon
-                agent.speak('When all else fails, bind some paper together. My name is Clippy.');
             </div>
         <p>&copyVenti 2021</p>
 		</div>
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="assets/clippy/clippy.min.js"></script>
+	<script type="text/javascript">
+        clippy.load('Clippy', function(agent){
+            // do anything with the loaded agent
+            agent.show();
+			agent.speak('When all else fails, bind some paper together. My name is Clippy.');
+        });
+    </script>
 </html>
