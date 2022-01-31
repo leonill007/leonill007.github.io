@@ -413,13 +413,14 @@ progress::-webkit-progress-value {
 body {
   background-color: rgba(0, 0, 0, 0.5);
   font-family: "Trebuchet MS", "Verdana", sans-serif;
+  font-smooth: never;
   color: #d8ded3;
   font-size: 14px;
   image-rendering: pixelated;
   margin: 20px 20px;
 }
 ::selection {
-  background-color: white;
+  background: #0078D4;
 }
 h1,
 h2,
@@ -481,7 +482,7 @@ main,
   max-width: 780px;
 }
 body {
-  background-image: url("hl2_background01.png");
+  background-image: url("background00.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;

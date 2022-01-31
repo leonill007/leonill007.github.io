@@ -390,13 +390,14 @@ progress::-webkit-progress-value {
 body {
   background-color: #3e4637;
   font-family: "Trebuchet MS", "Verdana", sans-serif;
+  font-smooth: never;
   color: #d8ded3;
   font-size: 14px;
   image-rendering: pixelated;
   margin: 20px 20px;
 }
 ::selection {
-  background-color: #96892D;
+  background: #0078D4;
 }
 h1,
 h2,
