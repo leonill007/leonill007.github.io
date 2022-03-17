@@ -535,7 +535,6 @@ hr {
 }
 img {
   object-fit: contain;
-  margin: 2px;
 }
 main,
 .window-column {
