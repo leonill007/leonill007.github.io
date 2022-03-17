@@ -2,13 +2,15 @@
 <html lang=de>
 <head>
 <link rel=icon href="assets\images\logo\favicon.ico" type="image/icon">
-<link rel=stylesheet type=text/css href="assets/styles/greysteam/greysteam.css">
+<link id="theme-stylesheet" rel="stylesheet" href="assets/styles/greysteam/greysteam.css">
 <meta charset=utf-8>
 <title>Venti - Contact</title>
 <div class='stage'>
 </head>
-<center><a href="index.html" ><img src="assets\images\logo\logo.png" title="Venti" alt="Venti" width="457" height="164"></a></center>
+<body>
+<center><a href="index"><img src="assets\images\logo\logo.png" title="Venti" alt="Venti" width="457" height="164"></a></center>
 	<main>
+
 		<nav>
 			<li><a href="index">Home</a></li>
 			<li><a href="downloads">Downloads</a></li>
@@ -38,7 +40,19 @@
                 <p><img src="assets\images\icons\email.png" height="16" width="16"> Email:</img></p>
                 <p><a href="mailto:xventi@outlook.de">xventi@outlook.de</a></p>
             </div>
-		<center><p>&copyVenti 2021 - 2022</p></center>
+		<center><p>&copyVenti 2021 - 2022</p>
+		    <div class="theme-switcher">
+                <section class="field-row">
+                 <label>Select a theme</label>
+                    <select id="theme-switcher-select">
+                    <option value="assets/styles/greysteam/greysteam.css">Greysteam</option>
+                    <option value="assets/styles/greensteam/greensteam.css">Greensteam</option>
+                    </select>
+                </section>
+            </div>
+        </center>
 		</div>
     </main>
+</body>
+	<script src="assets/js/script.js"></script>
 </html>
