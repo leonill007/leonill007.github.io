@@ -582,3 +582,11 @@ a:hover {
 .DownloadButton:active {
   background: url(download_pressed.png) no-repeat;
 }
+.DownloadButton {
+  background: url(download.png) no-repeat;
+  padding: 13px 50px;
+}
+.DownloadButton:active {
+  background: url(download_pressed.png) no-repeat;
+   padding: 13px 50px;
+}
