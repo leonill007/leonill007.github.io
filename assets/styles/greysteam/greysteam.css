@@ -465,6 +465,16 @@ img {
   object-fit: contain;
   margin: 2px;
 }
+.logo {
+	font-size: 192px;
+	font-family: "Tahoma", sans-serif;
+	font-smooth: never;
+	color: white;
+}
+.logo:hover {
+	text-decoration: none;
+	text-decoration-color: transparent;
+}
 main,
 .window-column {
   display: flex;
