@@ -4,7 +4,7 @@ here you can look at the files and all of that stuff. yeah!
 
 ### User Experience: 
 
-[vgui.css by AlpyneDreams](https://github.com/AlpyneDreams/vgui.css), using my own modification: [vgui.css by Venti](https://github.com/xVenti/vgui.css)
+[vgui.css by AlpyneDreams](https://github.com/AlpyneDreams/vgui.css), using my own modification: [vgui.css by Venti](https://github.com/leonill007/vgui.css)
 
  
  
@@ -18,4 +18,4 @@ here you can look at the files and all of that stuff. yeah!
  
  
 
-[xVenti.github.io](https://xventi.github.io/)
+[leonill007.github.io](https://leonill007.github.io/)
