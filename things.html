@@ -3,6 +3,10 @@
 <head>
 <link rel=icon href="assets/images/logo/favicon.ico">
 <link id="theme-link" rel="stylesheet" href="assets/styles/greysteam/greysteam.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="physplay.js"></script>
+        <script src="hl220.js"></script>
+        <link href="halflife2-20.css" rel="stylesheet" type="text/css">
 <meta charset=utf-8>
 <title>leonill007 - Things</title>
 <div class='stage'>
@@ -16,10 +20,11 @@
 			<li><a href="downloads">Downloads</a></li>
 			<li><a href="map-portfolio">Map Portfolio</a></li>
 			<li><a href="things">JS Things</a></li>
+			<li><a href="wrapped">Wrapped</a></li>
 			<li><a href="contact">Contact</a></li>
 		</nav>
 		
-		<div class="window" name="Things">
+		<div class="window" name="Things" data-phys>
 			<div class="box inset">
                 <h1>Things</h1>
 				<h2>Nothing to see here at the moment!</h2>
@@ -42,7 +47,32 @@
             </div>
         </center>
 		</div>
+		
+            <section id="gravgun" class=" ">
+                <div id="gravgunimage" class="gravgunimage"></div>
+				<div id="mobilemessage">
+					<span class="use-mouse">Vielleicht mit der Maus?</span>
+					<span class="use-desktop">Vielleicht in einem Desktop-Browser?</span>
+				</div>
+				<img class="can" id="can" src="assets/physcannon/can.png" />
+				<img class="can intrash intrash1" src="assets/physcannon/gnome.png" />
+				<img class="can intrash intrash2" src="assets/physcannon/can.png" />
+				<div id="trashcan" class="trashcan" data-phys></div>
+            </section>
     </main>
 </body>
 <script src="assets/js/themeswitcher.js"></script>
 </html>
+<fieldset id="sounddebug" class="debugUI">
+		<legend>[DEV] Sound Effect Debug</legend>
+		<ul>Loading...</ul>
+	</fieldset>
+	<fieldset id="physdebug" class="debugUI">
+		<legend>[DEV] Physics Debug Config</legend>
+		<ul></ul>
+		<button onclick="phys.config.reset()">Reset Config</button>
+	</fieldset>
+    <div id="physContainer">
+        <canvas id="physCanvas">
+        </canvas>
+    </div>
